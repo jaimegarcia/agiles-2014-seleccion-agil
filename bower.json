@@ -1,0 +1,14 @@
+{
+  "name": "agiles-2014-seleccion-agil",
+  "version": "0.5.0",
+  "dependencies": {
+    "bespoke.js": "~0.3.0",
+    "bespoke-bullets": "~0.2.0",
+    "bespoke-scale": "~0.2.0",
+    "bespoke-hash": "~0.1.0",
+    "bespoke-progress": "~0.1.0",
+    "bespoke-state": "~0.2.0",
+    "bespoke-forms": "~0.1.0",
+    "prism": "gh-pages"
+  }
+}
