@@ -65,28 +65,61 @@ body
       h2 El caso HD DVD vs Blu-ray
       iframe(src='iframes/hdvd-bluray.html',scrolling="no", height='100%', width='100%',style="border:0px")
     section.red
+      h1 Problemas en el proceso de selección
+      h2 - Número de opciones
+      h2 - Diferenciación y entendimiento de las opciones
+      h2 - Información insuficiente e imprecisa
+      h2 - Subjetividad
+      h2 - Evolución de la tecnología (Decisión dinámica)
+    section.red
       h1 Hay una solución para contrarrestar estos problemas ...
-    section.white
-      h2 El uso de metodologías formales de decisión
-      img(src="img/decision-tree.png",style="width:60%")
+    section.green
+      h1 Pero antes de revisar la metodología, pongámonos de acuerdo en algunos conceptos
     section.blue
-      h1 Beneficios del uso de metodologías formales de decisión
-      h2 - Disminución de la subjetividad - Evaluación imparcial
-      h2 - Manejo de la complejidad
-      h2 - Hace visibile las imprecisiones e inconsistencias
-      h2 - Sirve de soporte a la hora de que se realice una auditoría
-    section.white
-      h1 Una de las más populares es la AHP
-      img(src="img/ahp.png",style="width:50%")
-    section.red
-      h1 Sin embargo, es difícil de implementar...
+      h1 Seleccionar Tecnología
+      h2 Escoger la "mejor" tecnología dentro de un número de alternativas
+      h2 Los criterios para considerar una tecnología "mejor" dependen de los decisores
     section.blue
-      h1 Entonces, cuál es la solución
+      h1 Historia de Usuario
+      h2 Representación de una necesidad en el lenguaje del usuario
+      h2 Como (rol) quiero (algo) para poder (beneficio)
     section.white
-      h2 Métodos de Decisión + Visualización = Analytic Board
-      img(src="img/seleccion.png",style="width:100%")
-    section.red
-      h1 Ejemplos en Vivo
+      h1 Story Mapping (Jeff Patton)
+      img(src="img/story-mapping.png",style="width:60%")
+    section.white
+      h2 Arquitectura Evolutiva
+      img(src="img/phonebloks.jpg",style="width:50%")
+    section.white
+      h2 Behaviour-Driven Development (Dan North)
+      img(src="img/bdd.png",style="width:60%")
+    section.white
+      h2 Escenarios - BDD
+      img(src="img/scenarios.png",style="width:60%")
+    section.white
+      h2 Selección Ágil de Software
+      img(src="img/coordenadas.png",style="width:100%")
+    section.green
+      h1 Primero, ten en cuenta lo siguiente
+      h2 - Te vas a equivocar
+      h2 - Decide tan tarde como sea posible (Last Responsible moment)
+      h2 - No te cases con una tecnología o si te casas adquiere compromiso con su desarrollo
+    section.white
+      h2 2. Identifique las historias de usuario que debe satisfacer el software o librería
+      h3 (Story Mapping - Backlog)
+      img(src="img/story-mapping-seleccionado.png",style="width:65%")
+    section.blue
+      h2 3. Determinar las historias de usuario y escenarios críticos  (Requísitos Mínimos)
+      h2
+        br
+      h2 4. Determinar funcionalidades y características deseables (Criterios Flexibles)
+    section.white
+      h2 5.BDD en Requisitos Mínimos
+      img(src="img/BDD-Seleccion-Agil.png",style="width:65%")
+    section.white
+      h2 6. Método Interactivo Criterios Flexibles
+      iframe(src='iframes/par-coord-tech-select-es/index.html',scrolling="no", height='100%', width='100%',style="border:0px")
+    section.blue
+      h1 7.Ante un cambio tecnológico, se aplican todos los escenarios de BDD y se Actualiza el Método interactivo
     section.life
       .tint
           h1 Analytic Board
