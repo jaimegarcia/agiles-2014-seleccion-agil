@@ -1,0 +1,70 @@
+@media only screen and (max-width : 600px) {
+    .parcoords svg{
+        font-size: 0.7em;
+    }
+}
+@media only screen and (min-width: 601px) {
+    .parcoords svg{
+        font-size: 0.8em;
+    }
+}
+
+
+.parcoords  svg, .parcoords  canvas {
+    font-family: Oswald;
+    font-weight: 300;
+    position: absolute;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.parcoords > canvas {
+  pointer-events: none;
+}
+.parcoords rect.background {
+  fill: transparent;
+}
+.parcoords rect.background:hover {
+  fill: rgba(120,120,120,0.2);
+}
+.parcoords .resize rect {
+  fill: rgba(0,0,0,0.1);
+}
+.parcoords rect.extent {
+  fill: rgba(255,255,255,0.25);
+  stroke: rgba(0,0,0,0.6);
+}
+.parcoords .axis line, .parcoords .axis path {
+  fill: none;
+  stroke: #222;
+  shape-rendering: crispEdges;
+}
+.parcoords canvas {
+  opacity: 1;
+  -moz-transition: opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+}
+.parcoords canvas.faded {
+  opacity: 0.25;
+}
+.foreground path 
+{
+    stroke-width:10;
+}
+.axis .label{
+    font-weight: 400;
+
+}
+
+#btnReset{
+    background: none repeat scroll 0 0 #FF636E;
+    border: 0 none;
+    color: #FFFFFF;
+    font-family: Oswald;
+    height: 29px;
+    margin-left:19px;
+}
